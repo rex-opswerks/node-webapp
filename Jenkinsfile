@@ -7,5 +7,10 @@ pipeline {
                 sh 'npm --version'
             }
         }
+        stage('Up') {
+            steps {
+                sh 'sleep infinity'
+            }
+        }
     }
 }
