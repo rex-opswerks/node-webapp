@@ -5,6 +5,7 @@ WORKDIR /home/node/app
 COPY . /home/node/app
 RUN <<EOF
 npm install
+npm start
 EOF
 
 CMD ["npm", "start"]
